@@ -1,0 +1,87 @@
+h1 {
+  color: hsl(120, 100%, 50%);
+  position: absolute;
+  width: 99%;
+  margin: auto;
+  text-align: center;
+}
+
+#hr {
+  position: absolute;
+  width: 101%;
+  left: -1%;
+  height: 5px;
+  top: 6%;
+  background-color: green;
+}
+
+#projects {
+  position: absolute;
+  width: 15%;
+  text-align: center;
+  top: 5%;
+}
+
+#todos {
+  position: absolute;
+  left: 15%;
+  top: 5%;
+  text-align: center;
+  width: 79%;
+}
+
+#separator {
+  border: 1px green solid;
+  height: 680px;
+  position: absolute;
+  top: 7%;
+  left: 15%;
+  width: 5px;
+  background-color: green;
+}
+
+#table {
+  position: relative;
+  /* left:0; */
+  font-size: 17px;
+  top: 20%;
+}
+
+.table-heading {
+  padding: 0 80px 50px 80px;
+}
+
+.table-item {
+  padding: 0 80px 50px 80px;
+}
+
+#add-book {
+  position: relative;
+  left: 40%;
+  top: 5%;
+}
+
+#form {
+  position: relative;
+  left: 2%;
+  top: -2px;
+}
+
+.form-item {
+  font-size: 1em;
+  padding: 0 10px;
+  margin: 0 20px;
+}
+
+.project {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 5px solid black;
+  margin: 2px 0;
+  background-color: rgb(36, 13, 168);
+  color: white;
+}
+
+.selected {
+  border: 5px solid red;
+}

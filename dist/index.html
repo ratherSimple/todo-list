@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Todo List</h1>
+    <div id="hr" />
+    <div id="projects">
+      <h2>Projects</h2>
+      <p class="project selected">Default</p>
+      <p class="project">ok</p>
+    </div>
+    <div id="separator"></div>
+    <div id="todos">
+      <h2>Todos</h2>
+      <form id="form">
+        <fieldset>
+          <legend>Add a Todo</legend>
+          <input name="title" placeholder="Title" class="form-item" />
+          <input
+            name="description"
+            placeholder="Description"
+            class="form-item"
+          />
+          <label for="duedate">Due Date:</label>
+          <input id="duedate" type="date" name="due-date" class="form-item" />
+          <label for="priority">Priority</label>
+          <select id="priority">
+            <option name="low">Low</option>
+            <option name="medium">Medium</option>
+            <option name="high">High</option>
+          </select>
+          <button id="submit-form" type="button" class="form-item">
+            Add Todo
+          </button>
+        </fieldset>
+      </form>
+      <table id="table">
+        <tr>
+          <th class="table-heading">Title</th>
+          <th class="table-heading">Description</th>
+          <th class="table-heading">Due</th>
+          <th class="table-heading">Priority</th>
+          <th class="table-heading">Remove</th>
+          <th class="table-heading">Check/Uncheck</th>
+        </tr>
+      </table>
+    </div>
+    <script src="main.js" type="text/javascript"></script>
+  </body>
+</html>
